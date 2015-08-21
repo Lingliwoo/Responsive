@@ -4,6 +4,22 @@
     <meta charset="utf-8"/>
     <title>虚拟机文档 | Azure</title>
     <link rel="stylesheet" type="text/css" href="./style/frame.css" />
+    <script type="text/javascript" src="./script/jquery-2.1.4.js" ></script>
+    
+    <script>
+                $(function() {             
+                    $("li[data-control='toggle']").click(function() {
+                        if($(this).attr("class") == "active open")
+                          $(this).attr("class", "active");
+                        else if($(this).attr("class") == "active")
+                          $(this).attr("class", "active open");
+                        else if($(this).attr("class") == "open")
+                          $(this).attr("class", " ");
+                        else
+                          $(this).attr("class", "open");
+                    });
+                })
+    </script>
   </head>
   <body id="top" class="">
     <div class="wa-container-documentation wa-container-nested-documentation">
@@ -13,7 +29,7 @@
               <div class="wa-navigationLeft" data-control="toggle">
                 <a href="#" class="toggler">虚拟机</a>
                 <ul class="toggled">
-                  <li class=" active open" data-control="toggle" data-tag-name="Area_About" data-service-name="VirtualMachines">
+                  <li class="active open" data-control="toggle" data-tag-name="Area_About" data-service-name="VirtualMachines">
                     <a href="#" class="toggler">概述</a>
                     <ul class="toggled">
                       <li class="">
@@ -207,19 +223,19 @@
               </div>
               <div class="wa-content wa-content-3up">
                 <div class="wa-spacer">
-                  <a href="/zh-cn/documentation/videos/whats-new-in-azure-resource-manager-june-2015/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="What&#39;s new in Azure Resource Manager - June 2015" data-ch9="http://channel9.msdn.com/Shows/Azure-Friday/Whats-new-in-Azure-Resource-Manager-June-2015/player/"><img src="http://video.ch9.ms/ch9/f55e/3ebdf488-2f44-41da-a52d-e23111acf55e/WhatsNewinAzureResourceManagerwithThiagarajan_960.jpg" alt="What&#39;s new in Azure Resource Manager - June 2015" class="thumbnail"/><img class="play-icon" src="//acom.azurecomcdn.net/80C57D/cdn/images/cvt-f23f8360eda6520720ed4e6442d10edf91d2178952a1908d8fcf14ccd1e3f142/icon/VideoPlay.svg"/><span class="metadata"><span class="date"><span>06-04-2015</span><span>11 min, 42 sec</span></span></span></a>
+                  <a href="/zh-cn/documentation/videos/whats-new-in-azure-resource-manager-june-2015/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="What&#39;s new in Azure Resource Manager - June 2015" data-ch9="http://channel9.msdn.com/Shows/Azure-Friday/Whats-new-in-Azure-Resource-Manager-June-2015/player/"><img src="./img/WhatsNewinAzureResourceManagerwithThiagarajan_960.jpg" alt="What&#39;s new in Azure Resource Manager - June 2015" class="thumbnail"/><img class="play-icon" src="./img/VideoPlay.svg"/><span class="metadata"><span class="date"><span>06-04-2015</span><span>11 min, 42 sec</span></span></span></a>
                   <p>
                     What&#39;s new in Azure Resource Manager - June 2015
                   </p>
                 </div>
                 <div class="wa-spacer">
-                  <a href="/zh-cn/documentation/videos/whats-new-in-azure-resource-manager-compute-templates/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="What&#39;s new in Azure Resource Manager Compute Templates" data-ch9="http://channel9.msdn.com/Shows/Azure-Friday/Whats-new-in-Azure-Resource-Manager-Compute-Templates/player/"><img src="http://video.ch9.ms/ch9/8530/11fbe3bc-c928-4cf8-8843-e77c49328530/WhatsNewinComputeTemplateswithThiagarajan_960.jpg" alt="What&#39;s new in Azure Resource Manager Compute Templates" class="thumbnail"/><img class="play-icon" src="//acom.azurecomcdn.net/80C57D/cdn/images/cvt-f23f8360eda6520720ed4e6442d10edf91d2178952a1908d8fcf14ccd1e3f142/icon/VideoPlay.svg"/><span class="metadata"><span class="date"><span>06-04-2015</span><span>11 min, 15 sec</span></span></span></a>
+                  <a href="/zh-cn/documentation/videos/whats-new-in-azure-resource-manager-compute-templates/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="What&#39;s new in Azure Resource Manager Compute Templates" data-ch9="http://channel9.msdn.com/Shows/Azure-Friday/Whats-new-in-Azure-Resource-Manager-Compute-Templates/player/"><img src="./img/WhatsNewinComputeTemplateswithThiagarajan_960.jpg" alt="What&#39;s new in Azure Resource Manager Compute Templates" class="thumbnail"/><img class="play-icon" src="./img/VideoPlay.svg"/><span class="metadata"><span class="date"><span>06-04-2015</span><span>11 min, 15 sec</span></span></span></a>
                   <p>
                     What&#39;s new in Azure Resource Manager Compute Templates
                   </p>
                 </div>
                 <div class="wa-spacer">
-                  <a href="/zh-cn/documentation/videos/azure-compute-and-azurecli-with-azure-resource-manager/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="Azure Compute and AzureCLI with Azure Resource Manager" data-ch9="http://channel9.msdn.com/Blogs/Regular-IT-Guy/Azure-Compute-and-AzureCLI-with-Azure-Resource-Manager/player/"><img src="http://video.ch9.ms/ch9/b922/788c2921-2be5-418e-bc25-0effa5feb922/ArmVMsAzureCLI_960.jpg" alt="Azure Compute and AzureCLI with Azure Resource Manager" class="thumbnail"/><img class="play-icon" src="//acom.azurecomcdn.net/80C57D/cdn/images/cvt-f23f8360eda6520720ed4e6442d10edf91d2178952a1908d8fcf14ccd1e3f142/icon/VideoPlay.svg"/><span class="metadata"><span class="date"><span>04-29-2015</span><span>08 min, 32 sec</span></span></span></a>
+                  <a href="/zh-cn/documentation/videos/azure-compute-and-azurecli-with-azure-resource-manager/" data-control="" data-expanding="false" class="wa-video-thumbnail" title="Azure Compute and AzureCLI with Azure Resource Manager" data-ch9="http://channel9.msdn.com/Blogs/Regular-IT-Guy/Azure-Compute-and-AzureCLI-with-Azure-Resource-Manager/player/"><img src="./img/ArmVMsAzureCLI_960.jpg" alt="Azure Compute and AzureCLI with Azure Resource Manager" class="thumbnail"/><img class="play-icon" src="./img/VideoPlay.svg"/><span class="metadata"><span class="date"><span>04-29-2015</span><span>08 min, 32 sec</span></span></span></a>
                   <p>
                     Azure Compute and AzureCLI with Azure Resource Manager
                   </p>

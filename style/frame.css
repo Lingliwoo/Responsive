@@ -1627,7 +1627,7 @@ li.L1,li.L3,li.L5,li.L7,li.L9 {
 }
 
 body {
-  /*background: #525252; */
+  background: transparent;
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
