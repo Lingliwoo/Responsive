@@ -56,7 +56,6 @@
               }
               if (activeActicleId == null) {
                   document.getElementById(navigationJson.navigation[0].id + "_header").className = "active open";
-                  document.getElementById(navigationJson.navigation[0].id).style.display = "block";
                   pageId = navigationJson.navigation[0].id + "_header";
               }
               else {
@@ -64,7 +63,6 @@
                       for (var j = 0; j < navigationJson.navigation[i].articles.length; j++) {
                           if (navigationJson.navigation[i].articles[j].id == activeActicleId) {
                               document.getElementById(navigationJson.navigation[i].id + "_header").className = "active open";
-                              document.getElementById(navigationJson.navigation[i].id).style.display = "block";
                               pageId = navigationJson.navigation[i].id + "_header";
                               document.getElementById(activeActicleId).style.color = "#00abec";
                               break;
