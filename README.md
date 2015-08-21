@@ -1,3 +1,3 @@
 # Responsive
 
-This is a **responsive** website version 1
+This is a **responsive website** version 1
