@@ -4614,6 +4614,10 @@ h5+.wa-button,p+.wa-button {
   padding: 10px 15px 10px 20px
 }
 
+.wa-navigationLeft>ul>li>a:hover {
+    cursor:pointer;
+}
+
 .wa-navigationLeft>ul>li ul {
   padding: 0 15px 10px 20px
 }
