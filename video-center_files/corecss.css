@@ -1445,7 +1445,7 @@ a.casemain:active {
 	cursor: pointer; opacity: 0.7;
 }
 .table {
-	color: rgb(0, 0, 0); line-height: 22px; font-family: "Microsoft yahei","΢���ź�","SimHei","SimSun",sans-serif; font-size: 13px; border-top-color: rgb(153, 153, 153); border-top-width: 2px; border-top-style: solid; border-collapse: collapse;
+	color: rgb(0, 0, 0); line-height: 22px; font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important; font-size: 13px; border-top-color: rgb(153, 153, 153); border-top-width: 2px; border-top-style: solid; border-collapse: collapse;
 }
 .table td.casetd {
 	padding: 4px 15px; border: 1px currentColor; border-image: none; font-size: 13px; background-color: rgb(246, 246, 246);
@@ -9674,10 +9674,10 @@ header {
 	clear: both;
 }
 .faqpage .zh-cn body {
-	font-family: "Microsoft yahei","??????","SimHei","SimSun","Segoe UI",sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .faqpage .zh-cn .light-font {
-	font-family: "Microsoft yahei","??????","SimHei","SimSun","Segoe UI",sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .faqpage .question .answer {
 	margin: 10px 20px; width: 600px; display: none;
@@ -10364,10 +10364,10 @@ header {
 	right: 137px;
 }
 .zh-cn body {
-	font-family: "Microsoft yahei","΢���ź�","SimHei","SimSun","Segoe UI","Helvetica",Arial,sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .zh-cn .light-font {
-	font-family: "Microsoft yahei","΢���ź�","SimHei","SimSun","Segoe UI","Helvetica",Arial,sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .zh-cn p {
 	line-height: 145%; font-size: 13px;
@@ -10652,10 +10652,10 @@ header {
 	font-family: "Malgun Gothic",Gulim,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .zh-cn h1 {
-	font-family: "Microsoft yahei","΢���ź�","SimHei","SimSun","Segoe UI","Helvetica",Arial,sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .zh-cn h2 {
-	font-family: "Microsoft yahei","΢���ź�","SimHei","SimSun","Segoe UI","Helvetica",Arial,sans-serif !important;
+	font-family: YaHei,Simsun,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
 }
 .zh-tw h1 {
 	font-family: "Microsoft JhengHei",PMingLiU,MingLiu,"Segoe UI","Helvetica",Garuda,Arial,sans-serif !important;
