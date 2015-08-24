@@ -70,9 +70,6 @@ a {
 a:hover {
 	color: rgb(0, 102, 238);
 }
-a:focus {
-	outline: dotted thin;
-}
 a:hover {
 	outline: 0px;
 }
@@ -248,9 +245,6 @@ body {
 	font-family: "Segoe UI","Helvetica",Garuda,Arial,sans-serif;
 }
 a {
-	color: rgb(0, 168, 217); text-decoration: none;
-}
-a:link {
 	color: rgb(0, 168, 217); text-decoration: none;
 }
 a:visited {
